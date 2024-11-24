@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "AccScoreVisualizer",
+  "name": "AccScoreVisualizer",
+  "author": "BlqzingIce",
+  "version": "1.0.0",
+  "description": "hsv but worse",
+  "gameVersion": "1.28.0",
+  "dependsOn": {
+    "BSIPA": "^4.2.2"
+  }
+}
