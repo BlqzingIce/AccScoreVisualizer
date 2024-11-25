@@ -7,7 +7,7 @@ namespace AccScoreVisualizer
 {
     internal class FlyingScoreEffectPatch : IAffinity
     {
-        [Inject] private readonly ScoreController _scoreController;
+        //[Inject] private readonly ScoreController _scoreController;
         
         [AffinityPostfix]
         [AffinityPatch(typeof(FlyingScoreEffect), nameof(FlyingScoreEffect.RefreshScore))]
