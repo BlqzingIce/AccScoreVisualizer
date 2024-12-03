@@ -11,7 +11,7 @@ namespace AccScoreVisualizer
         private Zenjector _zenjector;
 
         [Init]
-        public void Init(IPALogger logger, Zenjector zenjector, IPA.Config.Config config)
+        public void Init(IPALogger logger, Zenjector zenjector)
         {
             _log = logger;
             _zenjector = zenjector;
