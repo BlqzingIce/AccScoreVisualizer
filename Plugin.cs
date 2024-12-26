@@ -23,7 +23,7 @@ namespace AccScoreVisualizer
         [OnStart]
         public void OnApplicationStart()
         {
-            _zenjector.Install<ASVAppInstaller>(Location.Player);
+            _zenjector.Install<AppInstaller>(Location.Player);
         }
 
         [OnExit]

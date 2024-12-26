@@ -10,7 +10,7 @@ namespace AccScoreVisualizer
         //[Inject] private readonly ScoreController _scoreController;
         
         [AffinityPostfix]
-        [AffinityPatch(typeof(FlyingScoreEffect), nameof(FlyingScoreEffect.RefreshScore))]
+        [AffinityPatch(typeof(FlyingScoreEffect), "RefreshScore")]
         private void Postfix(int maxPossibleCutScore, int score, ref TextMeshPro ____text, ref Color ____color, ref float ____colorAMultiplier, ref SpriteRenderer ____maxCutDistanceScoreIndicator)
         {
             //fuck base formatting
