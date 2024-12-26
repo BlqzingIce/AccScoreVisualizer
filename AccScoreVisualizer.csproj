@@ -99,9 +99,6 @@
     <ItemGroup>
         <None Include="Directory.Build.props" Condition="Exists('Directory.Build.props')"/>
         <None Include="Directory.Build.targets" Condition="Exists('Directory.Build.targets')"/>
-        <None Include="Template.csproj.user" Condition="Exists('Template.csproj.user')"/>
-    </ItemGroup>
-    <ItemGroup>
-      <Content Include="AccScoreVisualizer.csproj.user" />
+        <None Include="AccScoreVisualizer.csproj.user" Condition="Exists('AccScoreVisualizer.csproj.user')"/>
     </ItemGroup>
 </Project>
